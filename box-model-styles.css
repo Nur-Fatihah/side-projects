@@ -1,0 +1,18 @@
+/* Heading styling */
+h1 {
+    margin-bottom: 50px;
+    font-size: 2em;
+    /* Bold and big heading */
+    font-weight: bold;
+    margin-top: 0;
+    width: 40%;
+    min-width: 300px;
+}
+
+/* Paragraph styling */
+p {
+    background-color: lightblue;
+    padding: 25px 50px;
+    /* Top and bottom = 25px; Left and right = 50px */
+    margin-top: 80px;
+}

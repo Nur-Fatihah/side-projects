@@ -1,0 +1,23 @@
+/* Align the heading to the center */
+h1 {
+    text-align: center;
+}
+
+/* Remove underline from hyperlink */
+p a {
+    text-decoration: none;
+}
+
+/* Set font of heading to Verdana, and font-weight to normal */
+h1 {
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+}
+
+/* Set font of paragraphs to Courier New, italic, and increase font size */
+p {
+    font-family: "Courier New", monospace;
+    font-style: italic;
+    font-size: 1.2em;
+    /* Adjust as necessary for readability */
+}

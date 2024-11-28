@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Image Gallery</title>
+    <style>
+        img {
+            height: 200px;
+            /* Set a default height for all images */
+            width: auto;
+            /* Maintain aspect ratio */
+        }
+
+        #bird-image {
+            height: 400px;
+            /* Make the bird image larger */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Title of the gallery -->
+    <h1>Image Gallery</h1>
+
+    <!-- Image 1 - Human Image -->
+    <img src="human.jpg" alt="Human Image">
+
+    <!-- Image 2 - Bird Image (Link to Angry Birds Website) -->
+    <a href="https://www.angrybirds.com/">
+        <img id="bird-image" src="Inner Directory/bird.png" alt="Angry Bird Image">
+    </a>
+
+    <!-- Image 3 - Space Image -->
+    <img src="space.png" alt="Space Image">
+
+</body>
+
+</html>

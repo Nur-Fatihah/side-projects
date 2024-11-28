@@ -1,0 +1,38 @@
+/* Heading styling */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Paragraph text color */
+.green-text {
+    color: green;
+    display: inline;
+    /* Ensure the spans stay inline */
+}
+
+/* Hide green-text elements */
+.green-text.hidden {
+    display: none;
+    /* Hides the elements and removes space occupied */
+}
+
+/* Float the images */
+.images img {
+    float: left;
+    margin-right: 10px;
+    /* Add spacing between images */
+    width: 100px;
+    /* Adjust size as needed */
+    height: auto;
+}
+
+/* Hide the first image but keep space occupied */
+.images img:first-child {
+    visibility: hidden;
+}
+
+/* Hide the second image and shift the third image */
+.images img:nth-child(2) {
+    display: none;
+}
